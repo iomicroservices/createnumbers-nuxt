@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
+  components: true,
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   app: {
@@ -14,7 +16,7 @@ export default defineNuxtConfig({
         {
           src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'
         }
-      ]
-    }
-  }
-})
+      ],
+    },
+  },
+});
